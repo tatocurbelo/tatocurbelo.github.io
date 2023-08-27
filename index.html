@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        
+        <meta charset="utf-8">
         <title>search</title>
         <link rel="stylesheet" href="Styleproy.css">
        
-           
     </head> 
 
 
@@ -13,30 +12,32 @@
         
       
         <div id="opciones">
-            <button onclick="location.href='imagenes.html'"><h2>Imagenes</h2></button>
-            <button onclick="location.href='avanzado.html'"><h2>avanzado</h2></button>
-            
+            <a href="imagenes.html"> Imagenes </a>
+            <a href="avanzado.html"> Avanzado </a>
+           
+          
         </div>   
 
       
         <div id="nombre">
-          
-            <h1>Google</h1>
+        <img src="descarga.png" alt="uruguay">
+
+            
         </div>
-            <div id="form">
+            <div>
                 
                 <form action="https://google.com/search">
                
                    <input autofocus size="30" placeholder="  A ver, sorprendeme" type="search" name="q" >
                 
-                   <input   type="submit" value="Google Search" >
+                   <div >
+                            <input  type="submit" value="Google Search" >
+                            <button onclick="location.href='https://google.com/search'" style="background-color: blue; color: white;" >Voy a tener suerte</button>
+                    </div>
                  </form>     
+            </div>
                    
-        </div>
-        <div id="suerte">
-            <button onclick="location.href='suerte.html'" style="background-color: blue; color: white;" >Voy a tener suerte</button>
-            
-        </div>
+        
         
     
     </body>
