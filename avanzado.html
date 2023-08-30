@@ -1,46 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
         <title>search</title>
-        <link rel="stylesheet" href="Styleproy.css">
-        
+        <link rel="stylesheet" href="Styleproy.css"> 
     </head> 
-
-
     <body>
-        
-      
-      
-        <div id="volver">
-            <a href="index.html"> volver</a>
-               
+        <div class="option">
+            <a href="index.html">volver</a>
         </div>
-        
-        
-        <div id="nombre">
-          
-            <img src="descarga.png" alt="uruguay">
+        <div style="margin: 30px auto 10px 50px;">
+            <img src="descarga.png" alt="uruguay" width="200px" >
         </div>
-            
-   
-        
         <div>
+            <form action ="http://www.google.com/search" method="GET" name="f">     
                 
-            <form action="https://google.com/search">
-           
-               <input autofocus size="30" placeholder="  A ver, sorprendeme" type="search" name="q" >
-            
-               <div >
-                        <input  type="submit" value="Google Search" >
-                        <button onclick="location.href='https://google.com/search'" style="background-color: blue; color: white;" >Voy a tener suerte</button>
+                <input value="es-UY" name="hl" type="hidden"> 
+                <div ><label><h2>Mostrar páginas que contengan...</h2></label>   </div> 
+                       
+                <div> 
+                    <label> Todas estas palabras:</label> 
+                    <input autofocus="autofocus" name="as_q" type="text"> 
                 </div>
-             </form>     
-        </div>
-        
-        
-        
-        
-    
-    </body>
+                   
+                <div>
+                    <label>Esta palabra o frase exactas:</label> 
+                    <input  value="" name="as_epq" type="text"> 
+                </div> 
+                                                                                              
+                <div>
+                    <label>Cualquiera de estas palabras:</label>
+                    <input value=""  name="as_oq" type="text">
+                </div> 
+                     
+                <div>
+                    <label >Ninguna de estas palabras:</label>
+                    <input  value="" name="as_eq" type="text" >
+                </div>
+                <div >
+                    <input jfk-button-action dUBGpe style="-webkit-user-select:none;user-select:none;line-height:100%;height:30px;min-width:120px" value="Búsqueda avanzada" type="submit"> 
+                                  
+                </div>
+            </form>
+        </body>
 </html>
