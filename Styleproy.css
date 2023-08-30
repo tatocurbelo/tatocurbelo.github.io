@@ -2,6 +2,11 @@ body{
    background-color: white;
    font-family: sans-serif;
 }
+
+h1{
+    color:red
+    
+}
 .option{ 
     width: 190px; 
     margin: 10px 50px 10px auto; 
@@ -19,28 +24,27 @@ a {
 }
 input {
     color:black;
-    border-radius: 20px;
+ 
     text-align: left;
     font-size: 16px;
-    border-style:initial;
+    border-style:hidden;
     mask-type: luminance;
-    background-color: rgb(178, 193, 221);
-    margin: 5px;
+    background-color: rgb(236, 238, 241);
+    
 }
 form{
     margin: 50px auto 30px auto;
     width: 500px;  
     font-size: 14px;
 }
-.adv{
-    margin: 20px 50px;
+label{
+    display:inline-block;
+    margin: 10px 60px;
     width: 300px;
+    font-size: 18px;
 }
 #adv{
     margin: 50px 150px;
-    width: 600px; 
+    width: 800px; 
 }
-label{
-    width: 190px;
-    font-size: 20px;
-}
+
