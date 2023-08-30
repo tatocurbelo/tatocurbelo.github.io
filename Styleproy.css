@@ -10,13 +10,14 @@ h1{
 .option{ 
     width: 190px; 
     margin: 10px 50px 10px auto; 
-    text-align: center;
 }
 a {
+    
     color:blue;
-    text-decoration-line: none;
+    text-decoration-line:none;
     width:75px;
     margin: 0px 10px;
+    
 }
 .name{
     margin: 30px auto 30px auto ; 
