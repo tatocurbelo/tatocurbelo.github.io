@@ -1,6 +1,7 @@
 body{
    background-color: white;
    font-family: sans-serif;
+   min-width: 500px;
 }
 
 h1{
@@ -9,43 +10,49 @@ h1{
 }
 .option{ 
     width: 190px; 
-    margin: 10px 50px 10px auto; 
+    margin: 10px 4% 10px auto; 
 }
 a {
     
     color:blue;
     text-decoration-line:none;
-    width:75px;
-    margin: 0px 10px;
+    margin: 0px 10px 0px auto;
     
 }
 .name{
     margin: 30px auto 30px auto ; 
-    width: 450px;
+    width: 50%;
 }
 input {
     color:black;
- 
     text-align: left;
-    font-size: 16px;
+    font-size: 100%;
     border-style:hidden;
-    mask-type: luminance;
+    border-color: white;
     background-color: rgb(236, 238, 241);
     
 }
 form{
-    margin: 50px auto 30px auto;
-    width: 500px;  
-    font-size: 14px;
+    margin: 50px 25% 30px 25%;
+    width: 50%;  
+    font-size: 100%;
 }
 label{
     display:inline-block;
-    margin: 10px 60px;
+    margin: 10px 60px 10px 0px;
     width: 300px;
-    font-size: 18px;
+    font-size: 100%;
 }
 #adv{
     margin: 50px 150px;
     width: 800px; 
 }
+.vts{
+    font-size: 80%;
+    margin: 0px 10% 0px 70%;
+}
+.bcg{
+    width: 70px;
 
+    margin: 20px 37% 20px 37%
+}
